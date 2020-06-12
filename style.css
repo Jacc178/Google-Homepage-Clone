@@ -79,12 +79,43 @@ form {
     height: 30px;
     width: 450px;
     border-radius: 25px;
+    padding: 20px 20px 20px 40px;
     margin-top: 45px;
-    padding: 20px;
     font-size: 22px;
     border: solid 1px;
     opacity: 0.3;
 }
+
+.searchbar:focus {
+    outline: none;
+}
+
+.searchbar:hover {
+    box-shadow: 1px 1px 5px 1px #999;
+}
+
+#font-search {
+    opacity: 0.3;
+    position: absolute;
+    top: -28px;
+    margin-left: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#voice {
+    opacity: 0.3;
+    position: absolute;
+    top: -28px;
+    margin-left: 425px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 #buttons {
     display: flex;

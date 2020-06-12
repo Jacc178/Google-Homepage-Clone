@@ -3,6 +3,9 @@
 <head>
     <!-- linking css stylesheet-->
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/0243cd3211.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google-Clone</title>
 </head>
 
@@ -17,8 +20,11 @@
     <div id="search">
         <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
         <form>
-            <label for="searchbox"></label><br>
+        <div id="search-bar">
+            <div id="font-search"><i class="fas fa-search fa-s"></i></div>
             <input type="search" placeholder="Search google" class="searchbar"><br>
+            <div id="voice"><i class="fas fa-microphone fa-s"></i></div>
+        </div>
         </form>
     </div>
     <!-- search buttons-->
